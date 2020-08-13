@@ -59,9 +59,9 @@ On a more technical note
 
 We release a series of data products with the paper (will be continuously expanded).
 
-1) [Photometry and SED modelling catalogue](catalog/README.md)
+1) [Photometry and SED modelling catalogue](catalog)
 
-2) [Probability distribution functions of the host and SN properties](kde/README.md)
+2) [Probability distribution functions of the host and SN properties](kde)
 
 <!-- 3) [Postage stamps](poststamps) -->
 
