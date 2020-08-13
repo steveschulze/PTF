@@ -9,11 +9,14 @@ This table summarises the observed photometry in the AB system without any redde
 | Keyword           | Description                                                   |
 | ----------------- | ------------------------------------------------------------- |
 | OBJECT 		    | Object name                                                   |
+| TYPE   		    | SN type                                                       |
+| REDSHIFT   	    | Redshift                                                      |
+| ZMETHOD   	    | How was the redshift measure? SDSS, NED, galaxy lines in the SN spectrum, SN template matching? |
+| IAU_NAME 		    | IAU name                                                      |
 | SN_RA_HMS		    | Right ascension of the SN in the HMS system                   |
-| SN_DEC_DMS	    | Declination of the SN in the HMS system                       |
+| SN_DEC_DMS	    | Declination of the SN in the DMS system                       |
 | HOST_RA_HMS	    | Right ascension of the host in the HMS system                 |
-| HOST_DEC_DMS	    | Declination of the host in the HMS system                     |
-| REDSHIFT	        | Redshift to the SN/host                                       |
+| HOST_DEC_DMS	    | Declination of the host in the DMS system                     |
 | OFFSET	        | Projected distance between the SN and the host (unit: arcsec) |
 | OFFSET_ERR	    | 1 sigma error                                                 |
 | OFFSET_KPC	    | Projected distance between the SN and the host (unit: kpc)    |
@@ -23,13 +26,13 @@ This table summarises the observed photometry in the AB system without any redde
 
 This table summarises the observed photometry in the AB system without any reddeningcorrection. The table contains the following columns:
 
-| Keyword       | Description                                            |
-| ------------- | ------------------------------------------------------ |
-| OBJECT 		| Object name                                            |
-| FILTER		| Brightness in a given filter (if not available: -99 )  |
-| FILTER_ERR	| Photometric error (non-detections: -99)                |
+| Keyword               | Description                                            |
+| --------------------- | ------------------------------------------------------ |
+| OBJECT 	 			| Object name                                            |
+| MAGOBS_{FILTER}		| Brightness in a given filter (if not available: -99 )  |
+| MAGOBS_{FILTER}_ERR	| Photometric error (non-detections: -99)                |
 
-We report photometry in the following bands (if data are available)
+Photometry is reported in the following bands (if data are available)
 
 >GALEX_FUV, GALEX_NUV,
 UVOT_UVW2, UVOT_UVM2, UVOT_UVW1, UVOT_U, UVOT_B, UVOT_V, 
@@ -50,16 +53,16 @@ This table summarises the output from SED modelling with Prospector. The table c
 | ------------- | ------------------------------------------------------ |
 | OBJECT 		| Object name                                            |
 | REDSHIFT		| REDSHIFT                                               |
-| CHI2_BEST		| $\chi^2$ of the best fit                               |
-| NOF_BEST		| Numbers of filters used                                |
+| CHI2_BEST		| chi^2 of the best fit                               |
+| NOF_USED		| Numbers of filters used                                |
 | MAGMOD_{FILTER}_INF/MED/SUP		| Model-predicted apparent magnitude (not corrected for host attenuration; INF, MED, SUP correspond to the 34, 50, 84%-iles)                |
 | MAGABS_{FILTER}_INF/MED/SUP		| Absolute magnitude (not corrected for host attenuation; INF, MED, SUP correspond to the 34, 50, 84%-iles)                |
 | MAGOBS_{FILTER}_INF/MED/SUP		| Observed magnitude (not corrected for host attenuation; contains an additional systematic error w.r.t. the magnitudes in "Photometry"; INF, MED, SUP correspond to the 34, 50, 84%-iles)                |
 | EBVSTAR_INF/MED,SUP		| Stellar attentuation assuming the Calzetti model (unit: mag; INF, MED, SUP correspond to the 34, 50, 84%-iles)|
 | TAGE_INF/MED,SUP		| Age of the light-weighted stellar population (unit: Gyr; INF, MED,SUP correspond to the 34, 50, 84%-iles)|
 | TAU_INF/MED,SUP		| e-folding time scale of the lin-exp SFH (unit: Gyr; INF, MED, SUPcorrespond to the 34, 50, 84%-iles)|
-| MASS_INF/MED,SUP		| Mass of the living stars (unit: $M_\odot$; log units; INF, MED, SUPcorrespond to the 34, 50, 84%-iles)|
-| SFR_INF/MED,SUP		| Recent star-formation rate (unit: $M_\odot$/yr; log units; INF, MED,SUP correspond to the 34, 50, 84%-iles)|
+| MASS_INF/MED,SUP		| Mass of the living stars (unit: solar masses; log units; INF, MED, SUPcorrespond to the 34, 50, 84%-iles)|
+| SFR_INF/MED,SUP		| Recent star-formation rate (unit: solar masses/yr; log units; INF, MED,SUP correspond to the 34, 50, 84%-iles)|
 | SSFR_INF/MED,SUP		| Specific SFR (unit: 1/yr; log units; INF, MED, SUP correspond to the 34, 50, 84%-iles)|
 
-The model and absolute are reported only for filters where data were available and, in addition, in the FUV, $B$, $V$, $R$, $g'$, $r'$, $K_s$.
+The model and absolute are reported only for filters where data were available and, in addition, in the FUV, B, V, R, g', r', K_s.

@@ -1,6 +1,6 @@
 # Probability distribution functions
 
-We report the SEDs for redshifts, SN-host offsets (unit: kpc), observed $r'$ band magnitude, absolute $B$-band mag, galaxy mass, SFR, sSFR, age of the stellar population and the host attenuation. The file names have the following structure `kde_{SN_CLASS}_{PROPERTY}_v4.ascii`.
+We report the SEDs for redshifts, SN-host offsets (unit: kpc), observed r' band magnitude, absolute B-band mag, galaxy mass, SFR, sSFR, age of the stellar population and the host attenuation. The file names have the following structure `kde_{SN_CLASS}_{PROPERTY}_v4.ascii`.
 
 | SN_CLASS          | Additional notes                                               |
 | ----------------- | ------------------------------------------------------------- |
@@ -21,9 +21,9 @@ We report the SEDs for redshifts, SN-host offsets (unit: kpc), observed $r'$ ban
 | redshift			| redshift                                                            |
 | offset			| SN-host offset (unit: kpc)                                          |
 | mr				| r-band magnitude; not corrected for host reddening                  |
-| MB				| absolute magnitude in $B$-band; not corrected for host reddening    |
-| mass				| mass of the living stars (unit: $M_\odot$; log system)              |	
-| sfr				| current SFR (unit: $M_\odot$/yr; log system)                        | 
+| MB				| absolute magnitude in B-band; not corrected for host reddening    |
+| mass				| mass of the living stars (unit: solar masses; log system)              |	
+| sfr				| current SFR (unit: solar masses / yr; log system)                        | 
 | ssfr			    | sSFR (unit: 1/yr; log system)                                       |
 | tage			    | light-weighted age of the stellar-population (unit: yr; log system) |
 | ebvstar			| host attenuation (unit: mag; Calzetti model)                        | 
