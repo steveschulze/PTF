@@ -71,5 +71,42 @@ We release a series of data products with the paper (will be continuously expand
 
 ## Reference
 
-If you use data products of this paper, please cite
+If you use data products of this paper, please cite [our paper](https://ui.adsabs.harvard.edu/abs/2020arXiv200805988S/abstract)
 
+### Bibtex record
+
+```
+@ARTICLE{Schulze2020a,
+       author = {{Schulze}, Steve and {Yaron}, Ofer and {Sollerman}, Jesper and
+         {Leloudas}, Giorgos and {Gal}, Amit and {Wright}, Angus H. and
+         {Lunnan}, Ragnhild and {Gal-Yam}, Avishay and {Ofek}, Eran O. and
+         {Perley}, Daniel A. and {Filippenko}, Alexei V. and
+         {Kasliwal}, Mansi M. and {Kulkarni}, Shri R. and {Nugent}, Peter E. and
+         {Quimby}, Robert M. and {Sullivan}, Mark and {Linn Strothjohann}, Nora and
+         {Arcavi}, Iair and {Ben-Ami}, Sagi and {Bianco}, Federica and
+         {Bloom}, Joshua S. and {De}, Kishalay and {Fraser}, Morgan and
+         {Fremling}, Christoffer U. and {Horesh}, Assaf and {Johansson}, Joel and
+         {Kelly}, Patrick L. and {Knezevic}, Sladjana and {Maguire}, Kate and
+         {Nyholm}, Anders and {Semeli Papadogiannakis}, 2 and
+         {Petrushevska}, Tanja and {Rubin}, Adam and {Yan}, Lin and {Yang}, Yi and
+         {Adams}, Scott M. and {Bufano}, Filomena and {Clubb}, Kelsey I. and
+         {Foley}, Ryan J. and {Green}, Yoav and {Harmanen}, Jussi and
+         {Ho}, Anna Y.~Q. and {Hook}, Isobel M. and {Hosseinzadeh}, Griffin and
+         {Howell}, D. Andrew and {Kong}, Albert K.~H. and {Kotak}, Rubina and
+         {Matheson}, Thomas and {McCully}, Curtis and {Milisavljevic}, Dan and
+         {Pan}, Yen-Chen and {Poznanski}, Dovi and {Shivvers}, Isaac and
+         {van Velzen}, Sjoert},
+        title = "{The Palomar Transient Factory Core-Collapse Supernova Host-Galaxy Sample. I. Host-Galaxy Distribution Functions and Environment-Dependence of CCSNe}",
+      journal = {arXiv e-prints},
+     keywords = {Astrophysics - Astrophysics of Galaxies},
+         year = 2020,
+        month = aug,
+          eid = {arXiv:2008.05988},
+        pages = {arXiv:2008.05988},
+archivePrefix = {arXiv},
+       eprint = {2008.05988},
+ primaryClass = {astro-ph.GA},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2020arXiv200805988S},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+'''
