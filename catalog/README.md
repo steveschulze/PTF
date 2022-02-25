@@ -55,14 +55,14 @@ This table summarises the output from SED modelling with Prospector. The table c
 | REDSHIFT		| REDSHIFT                                               |
 | CHI2_BEST		| chi^2 of the best fit                               |
 | NOF_USED		| Numbers of filters used                                |
-| MAGMOD_{FILTER}_INF/MED/SUP		| Model-predicted apparent magnitude (not corrected for host attenuration; INF, MED, SUP correspond to the 34, 50, 84%-iles)                |
-| MAGABS_{FILTER}_INF/MED/SUP		| Absolute magnitude (not corrected for host attenuation; INF, MED, SUP correspond to the 34, 50, 84%-iles)                |
-| MAGOBS_{FILTER}_INF/MED/SUP		| Observed magnitude (not corrected for host attenuation; contains an additional systematic error w.r.t. the magnitudes in "Photometry"; INF, MED, SUP correspond to the 34, 50, 84%-iles)                |
-| EBVSTAR_INF/MED,SUP		| Stellar attentuation assuming the Calzetti model (unit: mag; INF, MED, SUP correspond to the 34, 50, 84%-iles)|
-| TAGE_INF/MED,SUP		| Age of the light-weighted stellar population (unit: Gyr; INF, MED,SUP correspond to the 34, 50, 84%-iles)|
-| TAU_INF/MED,SUP		| e-folding time scale of the lin-exp SFH (unit: Gyr; INF, MED, SUPcorrespond to the 34, 50, 84%-iles)|
-| MASS_INF/MED,SUP		| Mass of the living stars (unit: solar masses; log units; INF, MED, SUPcorrespond to the 34, 50, 84%-iles)|
-| SFR_INF/MED,SUP		| Recent star-formation rate (unit: solar masses/yr; log units; INF, MED,SUP correspond to the 34, 50, 84%-iles)|
-| SSFR_INF/MED,SUP		| Specific SFR (unit: 1/yr; log units; INF, MED, SUP correspond to the 34, 50, 84%-iles)|
+| MAGMOD_{FILTER}_INF/MED/SUP		| Model-predicted apparent magnitude (not corrected for host attenuration; INF, MED, SUP correspond to the 16, 50, 84%-iles)                |
+| MAGABS_{FILTER}_INF/MED/SUP		| Absolute magnitude (not corrected for host attenuation; INF, MED, SUP correspond to the 16, 50, 84%-iles)                |
+| MAGOBS_{FILTER}_INF/MED/SUP		| Observed magnitude (not corrected for host attenuation; contains an additional systematic error w.r.t. the magnitudes in "Photometry"; INF, MED, SUP correspond to the 16, 50, 84%-iles)                |
+| EBVSTAR_INF/MED,SUP		| Stellar attentuation assuming the Calzetti model (unit: mag; INF, MED, SUP correspond to the 16, 50, 84%-iles)|
+| TAGE_INF/MED,SUP		| Age of the light-weighted stellar population (unit: Gyr; INF, MED,SUP correspond to the 16, 50, 84%-iles)|
+| TAU_INF/MED,SUP		| e-folding time scale of the lin-exp SFH (unit: Gyr; INF, MED, SUPcorrespond to the 16, 50, 84%-iles)|
+| MASS_INF/MED,SUP		| Mass of the living stars (unit: solar masses; log units; INF, MED, SUPcorrespond to the 16, 50, 84%-iles)|
+| SFR_INF/MED,SUP		| Recent star-formation rate (unit: solar masses/yr; log units; INF, MED,SUP correspond to the 16, 50, 84%-iles)|
+| SSFR_INF/MED,SUP		| Specific SFR (unit: 1/yr; log units; INF, MED, SUP correspond to the 16, 50, 84%-iles)|
 
 The model and absolute are reported only for filters where data were available and, in addition, in the FUV, B, V, R, g', r', K_s.
