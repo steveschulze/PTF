@@ -15,7 +15,7 @@ The PTF CCSN consists of 888 SNe of 12 different SN classes. Figure [1](#fig:pie
 
 <figure class="image" id="fig:pie">
   <img src="figures/PTF_CCSN_types.png" width="400">
-  <figcaption><b>Figure 1</b>: The PTF CCSN sample consists of 888 objects divided into three families and 12 classes.  The size of each subclassand family is shown in the legend.
+  <figcaption><b>Figure 1</b>: The PTF CCSN sample consists of 888 objects divided into three families and 12 classes.  The size of each sub-class and family is shown in the legend.
 </figcaption>
 </figure>
 
